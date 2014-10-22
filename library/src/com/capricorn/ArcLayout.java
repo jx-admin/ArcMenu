@@ -16,6 +16,7 @@
 
 package com.capricorn;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Rect;
@@ -40,6 +41,7 @@ import android.view.animation.Animation.AnimationListener;
  * @author Capricorn
  * 
  */
+@SuppressLint("NewApi")
 public class ArcLayout extends ViewGroup {
     /**
      * children will be set the same size.
